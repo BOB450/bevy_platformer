@@ -6,11 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = {version = "0.9", features = ["serialize"]}
+bevy = {version = "0.11", features = ["serialize"]}
 bevy-inspector-egui = "*"
 bevy_editor_pls = {git = "https://github.com/jakobhellermann/bevy_editor_pls"}
 rand = "0.8"
-leafwing-input-manager = "0.8.0"
+leafwing-input-manager = "0.10.0"
 bevy_rapier2d = "*"
 bevy-inspector-egui-rapier = { version = "*", features = ["rapier2d"]}
 serde = "1"
